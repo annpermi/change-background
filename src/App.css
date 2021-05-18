@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 90vh;
+  background: white;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bg {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  border-radius: 10px;
+}
+
+.bg span {
+  color: rgb(34, 143, 238);
+}
+
+.btn {
+  background-color: transparent;
+  padding: 10px 15px;
+  letter-spacing: 5px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
